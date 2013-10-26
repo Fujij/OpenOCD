@@ -22,29 +22,29 @@ In the folder scripts is a folder called interface.
 
 In there find the olimex-arm-usb-tiny.cfg - if its not there make one and put this in it:
 
-#
-# Olimex ARM-USB-TINY
-#
-# http://www.olimex.com/dev/arm-usb-tiny.html
-#
-
-interface ft2232
-ft2232_device_desc "Olimex OpenOCD JTAG TINY A"
-ft2232_layout olimex-jtag
-ft2232_vid_pid 0x15ba 0x0004
+> #
+> # Olimex ARM-USB-TINY
+> #
+> # http://www.olimex.com/dev/arm-usb-tiny.html
+> #
+> 
+> interface ft2232
+> ft2232_device_desc "Olimex OpenOCD JTAG TINY A"
+> ft2232_layout olimex-jtag
+> ft2232_vid_pid 0x15ba 0x0004
 
 If you are using the TINY-H make a file (if it doesnt exist) called olimex.arm-usb-tiny-h.cfg and put this in it:
 
-#
-# Olimex ARM-USB-TINY-H
-#
-# http://www.olimex.com/dev/arm-usb-tiny-h.html
-#
+> #
+> # Olimex ARM-USB-TINY-H
+> #
+> # http://www.olimex.com/dev/arm-usb-tiny-h.html
+> #
 
-interface ft2232
-ft2232_device_desc "Olimex OpenOCD JTAG ARM-USB-TINY-H"
-ft2232_layout olimex-jtag
-ft2232_vid_pid 0x15ba 0x002a
+> interface ft2232
+> ft2232_device_desc "Olimex OpenOCD JTAG ARM-USB-TINY-H"
+> ft2232_layout olimex-jtag
+> ft2232_vid_pid 0x15ba 0x002a
 
 Finally download from here openocd.cfg and put it in the openocd-0.x\bin folder.
 
