@@ -1,9 +1,5 @@
 The point of this repository is to help setup OpenOCD with the Olimex JTAG-UTB-TINY however where I can think of the differences for the UTB-TINY-H I will point that out.
 
-Basically Olimex is a shit company. They are useless when it comes to helping with their products and although they claim to support the open source community they dont - I suspect they are getting back handers from larger companies.
-
-However they do make cheap JTAG's...
-
 This is a description for Windows but Linux users - i plan on updating to talk about this, although if you are a linux user you should be good enough to "port" the following over. Mac users, I dont know for you, all I know is Mac is based on Free-BSD and therefore should be basically like setting up for Linux.
 
 So buy either of the above two products.
